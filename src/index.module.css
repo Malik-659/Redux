@@ -1,0 +1,18 @@
+.list {
+    list-style-type:none;
+}
+.list__item {
+    display: none;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.completed {
+    color: rgb(0, 255, 0) !important;
+    text-decoration: line-through !important;
+}
+
+.undone {
+    color: red !important;
+}
